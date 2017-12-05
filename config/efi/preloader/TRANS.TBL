@@ -1,0 +1,5 @@
+F BOOTX64.EFI;1                                                                                                                                                                                                   	BOOTX64.EFI
+D FONTS                                                                                                                                                                                                           	fonts
+F GRUB.CFG;1                                                                                                                                                                                                      	grub.cfg
+F GRUBX64.EFI;1                                                                                                                                                                                                   	grubx64.efi
+F MOKMANAG.EFI;1                                                                                                                                                                                                  	MokManager.efi
