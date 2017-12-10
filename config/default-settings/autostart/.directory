@@ -3,4 +3,4 @@ Timestamp=2017,12,3,6,54,47
 Version=4
 
 [Settings]
-HiddenFilesShown=true
+HiddenFilesShown=false

@@ -512,6 +512,7 @@ def make_image(project):
         
         make_initrd(project)
         add_repo(project)
+        setup_live_sddm(project)
     except KeyboardInterrupt:
         print "Keyboard Interrupt: make_image() cancelled."
         sys.exit(1)        
