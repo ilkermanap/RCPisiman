@@ -27,8 +27,13 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.pager
 
+[Containments][2][Applets][3][Configuration][General]
+favoritesPortedToKAstats=true
+icon=/usr/share/pixmaps/plymouth-pisilinux.png
+
 [Containments][1][Applets][124][Configuration][General]
-url=file:///usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/contents/ui/google.com
+localPath=~/.local/share/plasma_icons/mozillafirefox.desktop
+url=file:///usr/share/applications/mozillafirefox.desktop
 
 [Containments][1][Applets][125][Configuration][General]
 history=#795e55,#4c1c0d
@@ -61,7 +66,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration][General]
-favorites=pisilinux-welcome.desktop,chromium-browser.desktop,systemsettings.desktop,org.kde.dolphin.desktop,package-manager-network.desktop,org.kde.konsole.desktop
+favorites=calamares.desktop,mozillafirefox.desktop,systemsettings.desktop,org.kde.dolphin.desktop,package-manager-network.desktop,org.kde.konsole.desktop
 
 [Containments][1][Applets][2][Configuration][Shortcuts]
 global=Alt+F1
@@ -73,14 +78,14 @@ global=Alt+F1
 url=file:///usr/share/applications/org.kde.spectacle.desktop
 
 [Containments][1][Applets][39][Configuration][General]
-url=file:///usr/share/applications/pisilinux-welcome.desktop
+url=file:///usr/share/applications/calamares.desktop
 
 [Containments][1][Applets][40]
 immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][1][Applets][40][Configuration][General]
-url=file:///usr/share/applications/chromium-browser.desktop
+url=file:///usr/share/applications/mozillafirefox.desktop
 
 [Containments][1][Applets][5]
 immutability=1
@@ -138,6 +143,9 @@ url=trash:/
 
 [Containments][1][Applets][54][Configuration][General]
 url=file:///usr/share/applications/org.kde.dolphin.desktop
+
+[Containments][1][Applets][56][Configuration][General]
+url=file:///usr/share/applications/calamares.desktop
 
 [Containments][1][Applets][6]
 immutability=1

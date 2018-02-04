@@ -1,10 +1,34 @@
-<PisiManProject type="Lxdm" compression="xz">
-    <Title>Pisilinux-KDE5-UEFI-LIVE-x86_64</Title>
-    <WorkDir>/home/gulle/deneisommm</WorkDir>
+<PisiManProject type="Sddm" compression="xz">
+    <Title>Pisilinux-lumıa-x86_64</Title>
+    <WorkDir>/home/gulle/deneiso</WorkDir>
     <ConfigFiles>/home/gulle/RCPisiman/config</ConfigFiles>
-    <PackageSelection repo_uri="http://ciftlik.pisilinux.org/2.0-Beta.1/pisi-index.xml.xz">
-        <SelectedComponent>desktop.kde.framework</SelectedComponent>
-        <SelectedComponent>desktop.kde.plasma</SelectedComponent>
+    <PackageSelection repo_uri="file:///home/gulle/yenidepo/pisi-index.xml.xz">
+        <SelectedPackage>lumina-archiver</SelectedPackage>
+        <SelectedPackage>lumina-calculator</SelectedPackage>
+        <SelectedPackage>lumina-config</SelectedPackage>
+        <SelectedPackage>lumina-desktop</SelectedPackage>
+        <SelectedPackage>lumina-fileinfo</SelectedPackage>
+        <SelectedPackage>lumina-fm</SelectedPackage>
+        <SelectedPackage>lumina-info</SelectedPackage>
+        <SelectedPackage>lumina-open</SelectedPackage>
+        <SelectedPackage>lumina-screenshot</SelectedPackage>
+        <SelectedPackage>lumina-search</SelectedPackage>
+        <SelectedPackage>lumina-textedit</SelectedPackage>
+        <SelectedPackage>lumina-wallpapers</SelectedPackage>
+        <SelectedPackage>lumina-xconfig</SelectedPackage>
+        <Package>lumina-archiver</Package>
+        <Package>lumina-calculator</Package>
+        <Package>lumina-config</Package>
+        <Package>lumina-desktop</Package>
+        <Package>lumina-fileinfo</Package>
+        <Package>lumina-fm</Package>
+        <Package>lumina-info</Package>
+        <Package>lumina-open</Package>
+        <Package>lumina-screenshot</Package>
+        <Package>lumina-search</Package>
+        <Package>lumina-textedit</Package>
+        <Package>lumina-wallpapers</Package>
+        <Package>lumina-xconfig</Package>
         <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
         <SelectedComponent>hardware.firmware</SelectedComponent>
         <SelectedComponent>system.base</SelectedComponent>
@@ -25,7 +49,6 @@
         <SelectedPackage>cpupowertools</SelectedPackage>
         <SelectedPackage>cups-filters</SelectedPackage>
         <SelectedPackage>desktop-file-utils</SelectedPackage>
-        <SelectedPackage>dolphin</SelectedPackage>
         <SelectedPackage>droid-fonts</SelectedPackage>
         <SelectedPackage>efitools</SelectedPackage>
         <SelectedPackage>firefox</SelectedPackage>
@@ -102,7 +125,6 @@
         <SelectedPackage>history-manager</SelectedPackage>
         <SelectedPackage>icon-theme-adwaita</SelectedPackage>
         <SelectedPackage>kaptan</SelectedPackage>
-        <SelectedPackage>kate</SelectedPackage>
         <SelectedPackage>kernel</SelectedPackage>
         <SelectedPackage>kio-extras</SelectedPackage>
         <SelectedPackage>konsole</SelectedPackage>
@@ -137,7 +159,6 @@
         <SelectedPackage>libreoffice-writer</SelectedPackage>
         <SelectedPackage>libva-intel-driver</SelectedPackage>
         <SelectedPackage>logrotate</SelectedPackage>
-        <SelectedPackage>lxdm</SelectedPackage>
         <SelectedPackage>memtest86</SelectedPackage>
         <SelectedPackage>mkinitcpio</SelectedPackage>
         <SelectedPackage>mkinitcpio</SelectedPackage>
@@ -267,13 +288,6 @@
         <Package>boost</Package>
         <Package>boost-python</Package>
         <Package>boost-python3</Package>
-        <Package>breeze-cursors</Package>
-        <Package>breeze-grub</Package>
-        <Package>breeze-gtk</Package>
-        <Package>breeze-icons</Package>
-        <Package>breeze-plymouth</Package>
-        <Package>breeze-style</Package>
-        <Package>breeze-wallpapers</Package>
         <Package>busybox</Package>
         <Package>busybox-mkinitcpio</Package>
         <Package>bzip2</Package>
@@ -317,7 +331,6 @@
         <Package>dmidecode</Package>
         <Package>docbook-xml</Package>
         <Package>docbook-xsl</Package>
-        <Package>dolphin</Package>
         <Package>dosfstools</Package>
         <Package>dotconf</Package>
         <Package>doxygen</Package>
@@ -487,93 +500,11 @@
         <Package>json-glib</Package>
         <Package>kaccounts-integration</Package>
         <Package>kactivities</Package>
-        <Package>kactivities-stats</Package>
-        <Package>kactivitymanagerd</Package>
-        <Package>kapidox</Package>
         <Package>kaptan</Package>
         <Package>karchive</Package>
-        <Package>kate</Package>
         <Package>kauth</Package>
-        <Package>kbd</Package>
-        <Package>kbookmarks</Package>
-        <Package>kcmutils</Package>
-        <Package>kcodecs</Package>
-        <Package>kcompletion</Package>
-        <Package>kconfig</Package>
-        <Package>kconfigwidgets</Package>
-        <Package>kcoreaddons</Package>
-        <Package>kcrash</Package>
-        <Package>kdbusaddons</Package>
-        <Package>kde-cli-tools</Package>
-        <Package>kde-gtk-config</Package>
-        <Package>kdeclarative</Package>
-        <Package>kdecorations</Package>
-        <Package>kded</Package>
-        <Package>kdegraphics-mobipocket</Package>
-        <Package>kdelibs4-support</Package>
-        <Package>kdeplasma-addons</Package>
-        <Package>kdesignerplugin</Package>
-        <Package>kdesu</Package>
-        <Package>kdewebkit</Package>
-        <Package>kdnssd</Package>
-        <Package>kdoctools</Package>
-        <Package>kemoticons</Package>
-        <Package>kernel</Package>
-        <Package>keyutils</Package>
-        <Package>kfilemetadata</Package>
-        <Package>kgamma5</Package>
-        <Package>kglobalaccel</Package>
-        <Package>kguiaddons</Package>
-        <Package>kholidays</Package>
-        <Package>khotkeys</Package>
-        <Package>khtml</Package>
-        <Package>ki18n</Package>
-        <Package>kiconthemes</Package>
-        <Package>kidletime</Package>
-        <Package>kimageformats</Package>
-        <Package>kinfocenter</Package>
-        <Package>kinit</Package>
-        <Package>kio</Package>
-        <Package>kio-extras</Package>
-        <Package>kirigami</Package>
-        <Package>kitemmodels</Package>
-        <Package>kitemviews</Package>
-        <Package>kjobwidgets</Package>
-        <Package>kjs</Package>
-        <Package>kjsembed</Package>
-        <Package>kmediaplayer</Package>
-        <Package>kmenuedit</Package>
-        <Package>kmod</Package>
-        <Package>knewstuff</Package>
-        <Package>knotifications</Package>
-        <Package>knotifyconfig</Package>
-        <Package>konsole</Package>
-        <Package>kpackage</Package>
-        <Package>kparts</Package>
-        <Package>kpeople</Package>
-        <Package>kplotting</Package>
-        <Package>kpmcore</Package>
-        <Package>kpty</Package>
-        <Package>kross</Package>
-        <Package>krunner</Package>
-        <Package>kscreen</Package>
-        <Package>kscreenlocker</Package>
-        <Package>kservice</Package>
-        <Package>ksshaskpass</Package>
-        <Package>ksysguard</Package>
-        <Package>ktexteditor</Package>
-        <Package>ktextwidgets</Package>
-        <Package>kunitconversion</Package>
-        <Package>kwallet</Package>
-        <Package>kwallet-pam</Package>
-        <Package>kwayland</Package>
-        <Package>kwayland-integration</Package>
-        <Package>kwidgetsaddons</Package>
-        <Package>kwin</Package>
-        <Package>kwindowsystem</Package>
-        <Package>kwrited</Package>
-        <Package>kxmlgui</Package>
-        <Package>kxmlrpcclient</Package>
+        
+       
         <Package>l-smash</Package>
         <Package>lame</Package>
         <Package>lcms2</Package>
@@ -813,7 +744,6 @@
         <Package>lsb-release</Package>
         <Package>lua</Package>
         <Package>lvm2</Package>
-        <Package>lxdm</Package>
         <Package>lzo</Package>
         <Package>mailcap</Package>
         <Package>man-db</Package>
@@ -894,24 +824,6 @@
         <Package>pisilinux-python</Package>
         <Package>pisilinux-theme-maia</Package>
         <Package>pixman</Package>
-        <Package>plasma-desktop</Package>
-        <Package>plasma-framework</Package>
-        <Package>plasma-integration</Package>
-        <Package>plasma-mediacenter</Package>
-        <Package>plasma-nm</Package>
-        <Package>plasma-pa</Package>
-        <Package>plasma-sdk</Package>
-        <Package>plasma-vault</Package>
-        <Package>plasma-workspace</Package>
-        <Package>plasma-workspace-wallpapers</Package>
-        <Package>plymouth</Package>
-        <Package>plymouth-core-libs</Package>
-        <Package>plymouth-graphics-libs</Package>
-        <Package>plymouth-plugin-label</Package>
-        <Package>plymouth-plugin-script</Package>
-        <Package>plymouth-plugin-two-step</Package>
-        <Package>plymouth-theme-pisilinux</Package>
-        <Package>plymouth-theme-spinner</Package>
         <Package>plyvel</Package>
         <Package>pm-utils</Package>
         <Package>pnm2ppa</Package>
@@ -1149,10 +1061,10 @@
         <Package>zip</Package>
         <Package>zlib</Package>
     </PackageSelection>
-    <RootImagePackages>
-        <SelectedComponent>desktop.kde.framework</SelectedComponent>
-        <SelectedComponent>desktop.kde.plasma</SelectedComponent>
-        <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
+     <RootImagePackages>
+          <SelectedPackage>lxdm</SelectedPackage>
+        <Package>lxdm</Package>
+          <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
         <SelectedComponent>hardware.firmware</SelectedComponent>
         <SelectedComponent>system.base</SelectedComponent>
         <SelectedComponent>x11.server</SelectedComponent>
@@ -1172,7 +1084,6 @@
         <SelectedPackage>cpupowertools</SelectedPackage>
         <SelectedPackage>cups-filters</SelectedPackage>
         <SelectedPackage>desktop-file-utils</SelectedPackage>
-        <SelectedPackage>dolphin</SelectedPackage>
         <SelectedPackage>droid-fonts</SelectedPackage>
         <SelectedPackage>efitools</SelectedPackage>
         <SelectedPackage>firefox</SelectedPackage>
@@ -1249,7 +1160,6 @@
         <SelectedPackage>history-manager</SelectedPackage>
         <SelectedPackage>icon-theme-adwaita</SelectedPackage>
         <SelectedPackage>kaptan</SelectedPackage>
-        <SelectedPackage>kate</SelectedPackage>
         <SelectedPackage>kernel</SelectedPackage>
         <SelectedPackage>kio-extras</SelectedPackage>
         <SelectedPackage>konsole</SelectedPackage>
@@ -1284,7 +1194,6 @@
         <SelectedPackage>libreoffice-writer</SelectedPackage>
         <SelectedPackage>libva-intel-driver</SelectedPackage>
         <SelectedPackage>logrotate</SelectedPackage>
-        <SelectedPackage>lxdm</SelectedPackage>
         <SelectedPackage>memtest86</SelectedPackage>
         <SelectedPackage>mkinitcpio</SelectedPackage>
         <SelectedPackage>mkinitcpio</SelectedPackage>
@@ -1414,13 +1323,6 @@
         <Package>boost</Package>
         <Package>boost-python</Package>
         <Package>boost-python3</Package>
-        <Package>breeze-cursors</Package>
-        <Package>breeze-grub</Package>
-        <Package>breeze-gtk</Package>
-        <Package>breeze-icons</Package>
-        <Package>breeze-plymouth</Package>
-        <Package>breeze-style</Package>
-        <Package>breeze-wallpapers</Package>
         <Package>busybox</Package>
         <Package>busybox-mkinitcpio</Package>
         <Package>bzip2</Package>
@@ -1464,7 +1366,6 @@
         <Package>dmidecode</Package>
         <Package>docbook-xml</Package>
         <Package>docbook-xsl</Package>
-        <Package>dolphin</Package>
         <Package>dosfstools</Package>
         <Package>dotconf</Package>
         <Package>doxygen</Package>
@@ -1634,93 +1535,11 @@
         <Package>json-glib</Package>
         <Package>kaccounts-integration</Package>
         <Package>kactivities</Package>
-        <Package>kactivities-stats</Package>
-        <Package>kactivitymanagerd</Package>
-        <Package>kapidox</Package>
         <Package>kaptan</Package>
         <Package>karchive</Package>
-        <Package>kate</Package>
         <Package>kauth</Package>
-        <Package>kbd</Package>
-        <Package>kbookmarks</Package>
-        <Package>kcmutils</Package>
-        <Package>kcodecs</Package>
-        <Package>kcompletion</Package>
-        <Package>kconfig</Package>
-        <Package>kconfigwidgets</Package>
-        <Package>kcoreaddons</Package>
-        <Package>kcrash</Package>
-        <Package>kdbusaddons</Package>
-        <Package>kde-cli-tools</Package>
-        <Package>kde-gtk-config</Package>
-        <Package>kdeclarative</Package>
-        <Package>kdecorations</Package>
-        <Package>kded</Package>
-        <Package>kdegraphics-mobipocket</Package>
-        <Package>kdelibs4-support</Package>
-        <Package>kdeplasma-addons</Package>
-        <Package>kdesignerplugin</Package>
-        <Package>kdesu</Package>
-        <Package>kdewebkit</Package>
-        <Package>kdnssd</Package>
-        <Package>kdoctools</Package>
-        <Package>kemoticons</Package>
-        <Package>kernel</Package>
-        <Package>keyutils</Package>
-        <Package>kfilemetadata</Package>
-        <Package>kgamma5</Package>
-        <Package>kglobalaccel</Package>
-        <Package>kguiaddons</Package>
-        <Package>kholidays</Package>
-        <Package>khotkeys</Package>
-        <Package>khtml</Package>
-        <Package>ki18n</Package>
-        <Package>kiconthemes</Package>
-        <Package>kidletime</Package>
-        <Package>kimageformats</Package>
-        <Package>kinfocenter</Package>
-        <Package>kinit</Package>
-        <Package>kio</Package>
-        <Package>kio-extras</Package>
-        <Package>kirigami</Package>
-        <Package>kitemmodels</Package>
-        <Package>kitemviews</Package>
-        <Package>kjobwidgets</Package>
-        <Package>kjs</Package>
-        <Package>kjsembed</Package>
-        <Package>kmediaplayer</Package>
-        <Package>kmenuedit</Package>
-        <Package>kmod</Package>
-        <Package>knewstuff</Package>
-        <Package>knotifications</Package>
-        <Package>knotifyconfig</Package>
-        <Package>konsole</Package>
-        <Package>kpackage</Package>
-        <Package>kparts</Package>
-        <Package>kpeople</Package>
-        <Package>kplotting</Package>
-        <Package>kpmcore</Package>
-        <Package>kpty</Package>
-        <Package>kross</Package>
-        <Package>krunner</Package>
-        <Package>kscreen</Package>
-        <Package>kscreenlocker</Package>
-        <Package>kservice</Package>
-        <Package>ksshaskpass</Package>
-        <Package>ksysguard</Package>
-        <Package>ktexteditor</Package>
-        <Package>ktextwidgets</Package>
-        <Package>kunitconversion</Package>
-        <Package>kwallet</Package>
-        <Package>kwallet-pam</Package>
-        <Package>kwayland</Package>
-        <Package>kwayland-integration</Package>
-        <Package>kwidgetsaddons</Package>
-        <Package>kwin</Package>
-        <Package>kwindowsystem</Package>
-        <Package>kwrited</Package>
-        <Package>kxmlgui</Package>
-        <Package>kxmlrpcclient</Package>
+        
+       
         <Package>l-smash</Package>
         <Package>lame</Package>
         <Package>lcms2</Package>
@@ -1960,7 +1779,6 @@
         <Package>lsb-release</Package>
         <Package>lua</Package>
         <Package>lvm2</Package>
-        <Package>lxdm</Package>
         <Package>lzo</Package>
         <Package>mailcap</Package>
         <Package>man-db</Package>
@@ -2041,24 +1859,6 @@
         <Package>pisilinux-python</Package>
         <Package>pisilinux-theme-maia</Package>
         <Package>pixman</Package>
-        <Package>plasma-desktop</Package>
-        <Package>plasma-framework</Package>
-        <Package>plasma-integration</Package>
-        <Package>plasma-mediacenter</Package>
-        <Package>plasma-nm</Package>
-        <Package>plasma-pa</Package>
-        <Package>plasma-sdk</Package>
-        <Package>plasma-vault</Package>
-        <Package>plasma-workspace</Package>
-        <Package>plasma-workspace-wallpapers</Package>
-        <Package>plymouth</Package>
-        <Package>plymouth-core-libs</Package>
-        <Package>plymouth-graphics-libs</Package>
-        <Package>plymouth-plugin-label</Package>
-        <Package>plymouth-plugin-script</Package>
-        <Package>plymouth-plugin-two-step</Package>
-        <Package>plymouth-theme-pisilinux</Package>
-        <Package>plymouth-theme-spinner</Package>
         <Package>plyvel</Package>
         <Package>pm-utils</Package>
         <Package>pnm2ppa</Package>
@@ -2295,7 +2095,35 @@
         <Package>xz</Package>
         <Package>zip</Package>
         <Package>zlib</Package>
-    </RootImagePackages>
+        <SelectedPackage>lxdm</SelectedPackage>
+        <SelectedPackage>lumina-archiver</SelectedPackage>
+        <SelectedPackage>lumina-calculator</SelectedPackage>
+        <SelectedPackage>lumina-config</SelectedPackage>
+        <SelectedPackage>lumina-desktop</SelectedPackage>
+        <SelectedPackage>lumina-fileinfo</SelectedPackage>
+        <SelectedPackage>lumina-fm</SelectedPackage>
+        <SelectedPackage>lumina-info</SelectedPackage>
+        <SelectedPackage>lumina-open</SelectedPackage>
+        <SelectedPackage>lumina-screenshot</SelectedPackage>
+        <SelectedPackage>lumina-search</SelectedPackage>
+        <SelectedPackage>lumina-textedit</SelectedPackage>
+        <SelectedPackage>lumina-wallpapers</SelectedPackage>
+        <SelectedPackage>lumina-xconfig</SelectedPackage>
+        <Package>lumina-archiver</Package>
+        <Package>lumina-calculator</Package>
+        <Package>lumina-config</Package>
+        <Package>lumina-desktop</Package>
+        <Package>lumina-fileinfo</Package>
+        <Package>lumina-fm</Package>
+        <Package>lumina-info</Package>
+        <Package>lumina-open</Package>
+        <Package>lumina-screenshot</Package>
+        <Package>lumina-search</Package>
+        <Package>lumina-textedit</Package>
+        <Package>lumina-wallpapers</Package>
+        <Package>lumina-xconfig</Package>
+        <Package>lxdm</Package>
+     </RootImagePackages>
     <LanguageSelection default_language="tr_TR">
         <Language>tr_TR</Language>
         <Language>it_IT</Language>

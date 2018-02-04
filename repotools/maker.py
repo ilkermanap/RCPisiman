@@ -241,7 +241,7 @@ def setup_live_lxdm(project):
         lines = []
         for line in open(lxdm_path, "r").readlines():
             if line.startswith("# autologin=dgod"):
-                lines.append("autologin=live\n")
+                lines.append("autologin=pisilive\n")
             elif line.startswith("# session=/usr/bin/startlxde"):
                 lines.append("session=/usr/bin/startxfce4\n")    
             else:
@@ -350,7 +350,6 @@ def add_repo(project):
     #run("chroot \"%s\" /usr/bin/pisi ar pisilife2 --yes-all  --ignore-check  https://github.com/pisilinux/pisilife-2/raw/master/pisi-index.xml.xz" % image_dir)
     
     
-    
     run("chroot \"%s\" /bin/service dbus stop" % image_dir)
     
     run('umount %s/proc' % image_dir)
@@ -358,6 +357,8 @@ def add_repo(project):
     run('umount %s/dev' % image_dir)
     
     run("rm -rf %s/run/dbus/*" % image_dir)
+    run("rm -rf %s/var/lib/pisi/info/files.ldb/LOCK" % image_dir, ignore_error=True)
+
     run("rm -rf %s/etc/localtime" % image_dir)
     run("rm -rf %s/etc/resolv.conf" % image_dir)
     
@@ -478,6 +479,8 @@ def make_image(project):
             os.makedirs(path)
         
     #KDE LİVE AYAR
+        run("cp -rf %s/default-settings/etc/* %s/etc/" % (configdir,image_dir))
+        run("cp -rf %s/default-settings/autostart %s/etc/skel/.config/" % (configdir,image_dir))
     
         run("cp -p %s/live/kde/.config/* %s/home/pisilive/.config/" % (configdir,image_dir),ignore_error=True)
         run("cp -rf %s/live/kde/autostart %s/home/pisilive/.config/" % (configdir,image_dir),ignore_error=True)
@@ -512,7 +515,7 @@ def make_image(project):
         
         make_initrd(project)
         add_repo(project)
-        setup_live_sddm(project)
+       
     except KeyboardInterrupt:
         print "Keyboard Interrupt: make_image() cancelled."
         sys.exit(1)        
@@ -660,8 +663,7 @@ def make_iso(project):
         run("cp -p %s/isomounts %s/." % (configdir, image_path))
         run("cp -p %s/*sqfs %s/x86_64/." % (work_dir, image_path))
         run("cp -p %s/pisi.img %s/EFI/." % (work_dir, iso_dir))
-
-   
+        
         run("touch %s/.miso" % iso_dir)
 
         def copy(src, dest):
