@@ -509,13 +509,11 @@ def make_image(project):
         run('cp "%s" "%s"' % (path1, path2))
         
         run("/bin/echo 'pisilive ALL=(ALL) NOPASSWD: ALL' >> %s/etc/sudoers" % image_dir)
-        
         run("/bin/chmod 440 %s/etc/sudoers" % image_dir)
-        
         
         make_initrd(project)
         add_repo(project)
-       
+        setup_live_sddm(project)
     except KeyboardInterrupt:
         print "Keyboard Interrupt: make_image() cancelled."
         sys.exit(1)        

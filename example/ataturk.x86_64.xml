@@ -1,9 +1,8 @@
- 
 <PisiManProject type="Sddm" compression="xz">
-    <Title>Pisilinux-KDE5-UEFI-LIVE-x86_64</Title>
+    <Title>Pisilinux-ATATURK-x86_64</Title>
     <WorkDir>/home/gulle/deneiso3</WorkDir>
-    <ConfigFiles>/home/gulle/Belgeler/Pisiman-master/config</ConfigFiles>
-    <PackageSelection repo_uri="file:///home/gulle/depo/pisi-index.xml.xz">
+    <ConfigFiles>/home/gulle/RCPisiman/config</ConfigFiles>
+    <PackageSelection repo_uri="ftp://ftp.linux.org.tr/pisilinux/2.0-stable/pisi-index.xml.xz">
         <SelectedComponent>desktop.kde.framework</SelectedComponent>
         <SelectedComponent>desktop.kde.plasma</SelectedComponent>
         <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
@@ -20,7 +19,11 @@
         <SelectedPackage>boost-python3</SelectedPackage>
         <SelectedPackage>busybox-mkinitcpio</SelectedPackage>
         <SelectedPackage>calamares-theme-pisilinux</SelectedPackage>
-        <SelectedPackage>efitools</SelectedPackage>
+        <SelectedPackage>cpupowertools</SelectedPackage>
+        <SelectedPackage>cups-filters</SelectedPackage>
+        <SelectedPackage>desktop-file-utils</SelectedPackage>
+        <SelectedPackage>dolphin</SelectedPackage>
+        <SelectedPackage>droid-fonts</SelectedPackage>
         <SelectedPackage>firefox</SelectedPackage>
         <SelectedPackage>firefox-lang-ca</SelectedPackage>
         <SelectedPackage>firefox-lang-da</SelectedPackage>
@@ -41,28 +44,13 @@
         <SelectedPackage>firefox-lang-sv-SE</SelectedPackage>
         <SelectedPackage>firefox-lang-tr</SelectedPackage>
         <SelectedPackage>firefox-lang-uk</SelectedPackage>
-        <SelectedPackage>libreoffice-base</SelectedPackage>
-        <SelectedPackage>libreoffice-ca</SelectedPackage>
-        <SelectedPackage>libreoffice-calc</SelectedPackage>
-        <SelectedPackage>libreoffice-common</SelectedPackage>
-        <SelectedPackage>libreoffice-de</SelectedPackage>
-        <SelectedPackage>libreoffice-draw</SelectedPackage>
-        <SelectedPackage>libreoffice-es</SelectedPackage>
-        <SelectedPackage>libreoffice-fr</SelectedPackage>
-        <SelectedPackage>libreoffice-hr</SelectedPackage>
-        <SelectedPackage>libreoffice-hu</SelectedPackage>
-        <SelectedPackage>libreoffice-impress</SelectedPackage>
-        <SelectedPackage>libreoffice-it</SelectedPackage>
-        <SelectedPackage>libreoffice-math</SelectedPackage>
-        <SelectedPackage>libreoffice-nl</SelectedPackage>
-        <SelectedPackage>libreoffice-pl</SelectedPackage>
-        <SelectedPackage>libreoffice-pt-BR</SelectedPackage>
-        <SelectedPackage>libreoffice-ru</SelectedPackage>
-        <SelectedPackage>libreoffice-tr</SelectedPackage>
-        <SelectedPackage>libreoffice-writer</SelectedPackage>
+        <SelectedPackage>foomatic-db</SelectedPackage>
         <SelectedPackage>foomatic-db</SelectedPackage>
         <SelectedPackage>foomatic-db-engine</SelectedPackage>
+        <SelectedPackage>foomatic-db-engine</SelectedPackage>
         <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
+        <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
+        <SelectedPackage>ghostscript</SelectedPackage>
         <SelectedPackage>ghostscript</SelectedPackage>
         <SelectedPackage>gimp</SelectedPackage>
         <SelectedPackage>gimp-data-extras</SelectedPackage>
@@ -89,15 +77,6 @@
         <SelectedPackage>gimp-resynthesizer</SelectedPackage>
         <SelectedPackage>gimp-save-for-web</SelectedPackage>
         <SelectedPackage>gimpfx-foundry</SelectedPackage>
-        <SelectedPackage>cpupowertools</SelectedPackage>
-        <SelectedPackage>cups-filters</SelectedPackage>
-        <SelectedPackage>desktop-file-utils</SelectedPackage>
-        <SelectedPackage>dolphin</SelectedPackage>
-        <SelectedPackage>droid-fonts</SelectedPackage>
-        <SelectedPackage>foomatic-db</SelectedPackage>
-        <SelectedPackage>foomatic-db-engine</SelectedPackage>
-        <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
-        <SelectedPackage>ghostscript</SelectedPackage>
         <SelectedPackage>glibc-locales-ca</SelectedPackage>
         <SelectedPackage>glibc-locales-de</SelectedPackage>
         <SelectedPackage>glibc-locales-en</SelectedPackage>
@@ -122,6 +101,7 @@
         <SelectedPackage>gwenview</SelectedPackage>
         <SelectedPackage>history-manager</SelectedPackage>
         <SelectedPackage>icon-theme-adwaita</SelectedPackage>
+        <SelectedPackage>kaptan</SelectedPackage>
         <SelectedPackage>kate</SelectedPackage>
         <SelectedPackage>kernel</SelectedPackage>
         <SelectedPackage>kio-extras</SelectedPackage>
@@ -135,6 +115,25 @@
         <SelectedPackage>libmatroska</SelectedPackage>
         <SelectedPackage>libmpeg2</SelectedPackage>
         <SelectedPackage>libquicktime</SelectedPackage>
+        <SelectedPackage>libreoffice-base</SelectedPackage>
+        <SelectedPackage>libreoffice-ca</SelectedPackage>
+        <SelectedPackage>libreoffice-calc</SelectedPackage>
+        <SelectedPackage>libreoffice-common</SelectedPackage>
+        <SelectedPackage>libreoffice-de</SelectedPackage>
+        <SelectedPackage>libreoffice-draw</SelectedPackage>
+        <SelectedPackage>libreoffice-es</SelectedPackage>
+        <SelectedPackage>libreoffice-fr</SelectedPackage>
+        <SelectedPackage>libreoffice-hr</SelectedPackage>
+        <SelectedPackage>libreoffice-hu</SelectedPackage>
+        <SelectedPackage>libreoffice-impress</SelectedPackage>
+        <SelectedPackage>libreoffice-it</SelectedPackage>
+        <SelectedPackage>libreoffice-math</SelectedPackage>
+        <SelectedPackage>libreoffice-nl</SelectedPackage>
+        <SelectedPackage>libreoffice-pl</SelectedPackage>
+        <SelectedPackage>libreoffice-pt-BR</SelectedPackage>
+        <SelectedPackage>libreoffice-ru</SelectedPackage>
+        <SelectedPackage>libreoffice-tr</SelectedPackage>
+        <SelectedPackage>libreoffice-writer</SelectedPackage>
         <SelectedPackage>libva-intel-driver</SelectedPackage>
         <SelectedPackage>logrotate</SelectedPackage>
         <SelectedPackage>memtest86</SelectedPackage>
@@ -151,6 +150,8 @@
         <SelectedPackage>partitionmanager</SelectedPackage>
         <SelectedPackage>pisilinux-gtk</SelectedPackage>
         <SelectedPackage>pisilinux-theme-maia</SelectedPackage>
+        <SelectedPackage>pisilinux-theme-maia</SelectedPackage>
+        <SelectedPackage>pisilinux-welcome</SelectedPackage>
         <SelectedPackage>pisilinux-welcome</SelectedPackage>
         <SelectedPackage>plymouth</SelectedPackage>
         <SelectedPackage>poppler-glib</SelectedPackage>
@@ -250,6 +251,7 @@
         <Package>avahi-libs</Package>
         <Package>b43-firmware</Package>
         <Package>b43-fwcutter</Package>
+        <Package>babl</Package>
         <Package>baloo</Package>
         <Package>baloo-widgets</Package>
         <Package>baselayout</Package>
@@ -315,7 +317,6 @@
         <Package>dolphin</Package>
         <Package>dosfstools</Package>
         <Package>dotconf</Package>
-        <Package>doxygen</Package>
         <Package>drkonqi</Package>
         <Package>droid-fonts</Package>
         <Package>e2fsprogs</Package>
@@ -324,7 +325,7 @@
         <Package>efivar</Package>
         <Package>elfutils</Package>
         <Package>enca</Package>
-        <Package>encfs</Package>
+        <Package>enchant</Package>
         <Package>enscript</Package>
         <Package>espeak</Package>
         <Package>eudev</Package>
@@ -337,8 +338,28 @@
         <Package>fftw3</Package>
         <Package>file</Package>
         <Package>findutils</Package>
-        <Package>firebird-client</Package>
+        <Package>firefox</Package>
+        <Package>firefox-lang-ca</Package>
+        <Package>firefox-lang-da</Package>
+        <Package>firefox-lang-de</Package>
+        <Package>firefox-lang-en-US</Package>
+        <Package>firefox-lang-es-AR</Package>
+        <Package>firefox-lang-es-CL</Package>
+        <Package>firefox-lang-es-ES</Package>
+        <Package>firefox-lang-fr</Package>
+        <Package>firefox-lang-hr</Package>
+        <Package>firefox-lang-hu</Package>
+        <Package>firefox-lang-it</Package>
+        <Package>firefox-lang-nl</Package>
+        <Package>firefox-lang-pl</Package>
+        <Package>firefox-lang-pt-BR</Package>
+        <Package>firefox-lang-ro</Package>
+        <Package>firefox-lang-ru</Package>
+        <Package>firefox-lang-sv-SE</Package>
+        <Package>firefox-lang-tr</Package>
+        <Package>firefox-lang-uk</Package>
         <Package>flac</Package>
+        <Package>flex</Package>
         <Package>flite</Package>
         <Package>fontconfig</Package>
         <Package>foomatic-db</Package>
@@ -354,12 +375,38 @@
         <Package>gdb</Package>
         <Package>gdbm</Package>
         <Package>gdk-pixbuf</Package>
+        <Package>gegl</Package>
         <Package>geoclue</Package>
         <Package>geoip</Package>
         <Package>gettext</Package>
         <Package>gfxtheme-pisilinux-install</Package>
         <Package>ghostscript</Package>
         <Package>giflib</Package>
+        <Package>gimp</Package>
+        <Package>gimp-data-extras</Package>
+        <Package>gimp-dds-plugin</Package>
+        <Package>gimp-focusblur-plugin</Package>
+        <Package>gimp-gmic-plugin</Package>
+        <Package>gimp-i18n-de</Package>
+        <Package>gimp-i18n-en_GB</Package>
+        <Package>gimp-i18n-es</Package>
+        <Package>gimp-i18n-fr</Package>
+        <Package>gimp-i18n-hr</Package>
+        <Package>gimp-i18n-hu</Package>
+        <Package>gimp-i18n-it</Package>
+        <Package>gimp-i18n-nl</Package>
+        <Package>gimp-i18n-pl</Package>
+        <Package>gimp-i18n-pt_BR</Package>
+        <Package>gimp-i18n-ru</Package>
+        <Package>gimp-i18n-sv</Package>
+        <Package>gimp-i18n-tr</Package>
+        <Package>gimp-i18n-uk</Package>
+        <Package>gimp-layer-effects</Package>
+        <Package>gimp-lqr-plugin</Package>
+        <Package>gimp-refocus-it-plugin</Package>
+        <Package>gimp-resynthesizer</Package>
+        <Package>gimp-save-for-web</Package>
+        <Package>gimpfx-foundry</Package>
         <Package>glib-networking</Package>
         <Package>glib2</Package>
         <Package>glibc</Package>
@@ -416,6 +463,7 @@
         <Package>ibus</Package>
         <Package>icon-theme-adwaita</Package>
         <Package>icon-theme-hicolor</Package>
+        <Package>iconcan</Package>
         <Package>icu4c</Package>
         <Package>ilmbase</Package>
         <Package>imagemagick</Package>
@@ -426,13 +474,13 @@
         <Package>jack-audio-connection-kit</Package>
         <Package>jasper</Package>
         <Package>jbigkit</Package>
+        <Package>jre7-openjdk-headless</Package>
         <Package>json-c</Package>
-        <Package>json-glib</Package>
-        <Package>kaccounts-integration</Package>
         <Package>kactivities</Package>
         <Package>kactivities-stats</Package>
         <Package>kactivitymanagerd</Package>
         <Package>kapidox</Package>
+        <Package>kaptan</Package>
         <Package>karchive</Package>
         <Package>kate</Package>
         <Package>kauth</Package>
@@ -477,7 +525,6 @@
         <Package>kinit</Package>
         <Package>kio</Package>
         <Package>kio-extras</Package>
-        <Package>kirigami</Package>
         <Package>kitemmodels</Package>
         <Package>kitemviews</Package>
         <Package>kjobwidgets</Package>
@@ -535,7 +582,6 @@
         <Package>libXext</Package>
         <Package>libXfixes</Package>
         <Package>libXfont</Package>
-        <Package>libXfont2</Package>
         <Package>libXft</Package>
         <Package>libXi</Package>
         <Package>libXinerama</Package>
@@ -552,8 +598,6 @@
         <Package>libXxf86misc</Package>
         <Package>libXxf86miscproto</Package>
         <Package>libXxf86vm</Package>
-        <Package>libaccounts-glib</Package>
-        <Package>libaccounts-qt5</Package>
         <Package>libaio</Package>
         <Package>libao</Package>
         <Package>libarchive</Package>
@@ -573,6 +617,7 @@
         <Package>libcdio</Package>
         <Package>libcdio-paranoia</Package>
         <Package>libconfig</Package>
+        <Package>libcroco</Package>
         <Package>libcrystalhd</Package>
         <Package>libdaemon</Package>
         <Package>libdbusmenu-qt</Package>
@@ -599,7 +644,6 @@
         <Package>libevdev</Package>
         <Package>libevent</Package>
         <Package>libexif</Package>
-        <Package>libfastjson</Package>
         <Package>libffado</Package>
         <Package>libffi</Package>
         <Package>libfontenc</Package>
@@ -618,6 +662,7 @@
         <Package>libimobiledevice</Package>
         <Package>libinput</Package>
         <Package>libjpeg-turbo</Package>
+        <Package>libkate</Package>
         <Package>libkdcraw</Package>
         <Package>libkexiv2</Package>
         <Package>libkipi</Package>
@@ -645,6 +690,7 @@
         <Package>libnotify</Package>
         <Package>libnut</Package>
         <Package>libogg</Package>
+        <Package>liboil</Package>
         <Package>libomxil-bellagio</Package>
         <Package>libopus</Package>
         <Package>libpaper</Package>
@@ -654,7 +700,6 @@
         <Package>libpipeline</Package>
         <Package>libplist</Package>
         <Package>libpng</Package>
-        <Package>libproxy</Package>
         <Package>libpwquality</Package>
         <Package>libqalculate</Package>
         <Package>libqmi</Package>
@@ -662,16 +707,35 @@
         <Package>libquicktime</Package>
         <Package>libraw</Package>
         <Package>libraw1394</Package>
+        <Package>libreoffice-base</Package>
+        <Package>libreoffice-ca</Package>
+        <Package>libreoffice-calc</Package>
+        <Package>libreoffice-common</Package>
+        <Package>libreoffice-de</Package>
+        <Package>libreoffice-draw</Package>
+        <Package>libreoffice-es</Package>
+        <Package>libreoffice-fr</Package>
+        <Package>libreoffice-hr</Package>
+        <Package>libreoffice-hu</Package>
+        <Package>libreoffice-impress</Package>
+        <Package>libreoffice-it</Package>
+        <Package>libreoffice-math</Package>
+        <Package>libreoffice-nl</Package>
+        <Package>libreoffice-pl</Package>
+        <Package>libreoffice-pt-BR</Package>
+        <Package>libreoffice-ru</Package>
+        <Package>libreoffice-tr</Package>
+        <Package>libreoffice-writer</Package>
+        <Package>librsvg</Package>
         <Package>libsamplerate</Package>
         <Package>libsdl</Package>
-        <Package>libseccomp</Package>
         <Package>libsecret</Package>
-        <Package>libshout</Package>
         <Package>libsigc++</Package>
         <Package>libsndfile</Package>
         <Package>libsoup</Package>
         <Package>libsoup-gnome</Package>
         <Package>libspectre</Package>
+        <Package>libspiro</Package>
         <Package>libssh</Package>
         <Package>libssh2</Package>
         <Package>libtalloc</Package>
@@ -685,7 +749,6 @@
         <Package>libunwind</Package>
         <Package>libusb</Package>
         <Package>libusb-compat</Package>
-        <Package>libusbmuxd</Package>
         <Package>libuser</Package>
         <Package>libutil-linux</Package>
         <Package>libv4l</Package>
@@ -709,6 +772,7 @@
         <Package>libxslt</Package>
         <Package>libyaml</Package>
         <Package>libzip</Package>
+        <Package>linux-atm</Package>
         <Package>linux-firmware</Package>
         <Package>lirc</Package>
         <Package>llvm</Package>
@@ -733,7 +797,6 @@
         <Package>mesa-glu</Package>
         <Package>milou</Package>
         <Package>mingetty</Package>
-        <Package>minizip</Package>
         <Package>miscfiles</Package>
         <Package>mit-kerberos</Package>
         <Package>mjpegtools</Package>
@@ -747,11 +810,9 @@
         <Package>module-virtualbox-guest-userspace</Package>
         <Package>module-virtualbox-userspace</Package>
         <Package>mpfr</Package>
-        <Package>mpg123</Package>
         <Package>mpv-player</Package>
         <Package>mtools</Package>
         <Package>mudur</Package>
-        <Package>mupdf</Package>
         <Package>nano</Package>
         <Package>ncompress</Package>
         <Package>ncurses</Package>
@@ -788,7 +849,6 @@
         <Package>partitionmanager</Package>
         <Package>pciutils</Package>
         <Package>pcmciautils</Package>
-        <Package>pepperflash</Package>
         <Package>perl</Package>
         <Package>perl-Crypt-PasswdMD5</Package>
         <Package>perl-Digest-SHA1</Package>
@@ -809,7 +869,6 @@
         <Package>plasma-nm</Package>
         <Package>plasma-pa</Package>
         <Package>plasma-sdk</Package>
-        <Package>plasma-vault</Package>
         <Package>plasma-workspace</Package>
         <Package>plasma-workspace-wallpapers</Package>
         <Package>plymouth</Package>
@@ -838,11 +897,9 @@
         <Package>print-manager</Package>
         <Package>prison</Package>
         <Package>procps</Package>
-        <Package>protobuf</Package>
         <Package>psmisc</Package>
         <Package>pulseaudio</Package>
         <Package>pulseaudio-libs</Package>
-        <Package>purpose</Package>
         <Package>pycurl</Package>
         <Package>pypolkit</Package>
         <Package>python</Package>
@@ -861,12 +918,10 @@
         <Package>qbittorrent</Package>
         <Package>qca2-qt5</Package>
         <Package>qpdf</Package>
-        <Package>qqc2-desktop-style</Package>
         <Package>qrencode</Package>
         <Package>qt5-accountsservice</Package>
         <Package>qt5-assistant</Package>
         <Package>qt5-base</Package>
-        <Package>qt5-charts</Package>
         <Package>qt5-configuration</Package>
         <Package>qt5-connectivity</Package>
         <Package>qt5-declarative</Package>
@@ -882,12 +937,11 @@
         <Package>qt5-phonon</Package>
         <Package>qt5-phonon-backend-gstreamer</Package>
         <Package>qt5-qdbusviewer</Package>
+        <Package>qt5-quick1</Package>
         <Package>qt5-quickcontrols</Package>
         <Package>qt5-quickcontrols2</Package>
         <Package>qt5-script</Package>
-        <Package>qt5-scxml</Package>
         <Package>qt5-sensors</Package>
-        <Package>qt5-serialbus</Package>
         <Package>qt5-serialport</Package>
         <Package>qt5-speech</Package>
         <Package>qt5-sql-mysql</Package>
@@ -896,7 +950,6 @@
         <Package>qt5-sql-sqlite</Package>
         <Package>qt5-svg</Package>
         <Package>qt5-translations</Package>
-        <Package>qt5-virtualkeyboard</Package>
         <Package>qt5-wayland</Package>
         <Package>qt5-webchannel</Package>
         <Package>qt5-webengine</Package>
@@ -924,10 +977,10 @@
         <Package>sgml-common</Package>
         <Package>shadow</Package>
         <Package>shared-mime-info</Package>
-        <Package>signon</Package>
         <Package>slang</Package>
         <Package>smpeg</Package>
         <Package>smplayer</Package>
+        <Package>smtube</Package>
         <Package>snappy</Package>
         <Package>solid</Package>
         <Package>sonnet</Package>
@@ -935,7 +988,6 @@
         <Package>spectacle</Package>
         <Package>speech-dispatcher</Package>
         <Package>speex</Package>
-        <Package>speexdsp</Package>
         <Package>spidermonkey</Package>
         <Package>sqlite</Package>
         <Package>squashfs-tools</Package>
@@ -959,14 +1011,13 @@
         <Package>tiff</Package>
         <Package>time</Package>
         <Package>timezone</Package>
-        <Package>tinyxml2</Package>
-        <Package>twolame</Package>
         <Package>udisks2</Package>
         <Package>unixODBC</Package>
         <Package>unrar</Package>
         <Package>unzip</Package>
         <Package>upower</Package>
         <Package>urlgrabber</Package>
+        <Package>usbmuxd</Package>
         <Package>usbutils</Package>
         <Package>user-manager</Package>
         <Package>utempter</Package>
@@ -979,11 +1030,11 @@
         <Package>virtualbox-guest-utils</Package>
         <Package>vixie-cron</Package>
         <Package>vokoscreen</Package>
-        <Package>wavpack</Package>
         <Package>wayland</Package>
         <Package>wayland-client</Package>
         <Package>wayland-cursor</Package>
         <Package>wayland-server</Package>
+        <Package>webkit-gtk2</Package>
         <Package>webp</Package>
         <Package>wget</Package>
         <Package>which</Package>
@@ -997,7 +1048,6 @@
         <Package>xcb-util-keysyms</Package>
         <Package>xcb-util-renderutil</Package>
         <Package>xcb-util-wm</Package>
-        <Package>xdg-desktop-portal-kde</Package>
         <Package>xdg-user-dirs</Package>
         <Package>xdg-utils</Package>
         <Package>xinit</Package>
@@ -1057,73 +1107,30 @@
         <Package>xz</Package>
         <Package>zip</Package>
         <Package>zlib</Package>
-        <Package>firefox</Package>
-        <Package>firefox-lang-ca</Package>
-        <Package>firefox-lang-da</Package>
-        <Package>firefox-lang-de</Package>
-        <Package>firefox-lang-en-US</Package>
-        <Package>firefox-lang-es-AR</Package>
-        <Package>firefox-lang-es-CL</Package>
-        <Package>firefox-lang-es-ES</Package>
-        <Package>firefox-lang-fr</Package>
-        <Package>firefox-lang-hr</Package>
-        <Package>firefox-lang-hu</Package>
-        <Package>firefox-lang-it</Package>
-        <Package>firefox-lang-nl</Package>
-        <Package>firefox-lang-pl</Package>
-        <Package>firefox-lang-pt-BR</Package>
-        <Package>firefox-lang-ro</Package>
-        <Package>firefox-lang-ru</Package>
-        <Package>firefox-lang-sv-SE</Package>
-        <Package>firefox-lang-tr</Package>
-        <Package>firefox-lang-uk</Package>
-        <Package>gimp</Package>
-        <Package>gimp-data-extras</Package>
-        <Package>gimp-dds-plugin</Package>
-        <Package>gimp-focusblur-plugin</Package>
-        <Package>gimp-gmic-plugin</Package>
-        <Package>gimp-i18n-de</Package>
-        <Package>gimp-i18n-en_GB</Package>
-        <Package>gimp-i18n-es</Package>
-        <Package>gimp-i18n-fr</Package>
-        <Package>gimp-i18n-hr</Package>
-        <Package>gimp-i18n-hu</Package>
-        <Package>gimp-i18n-it</Package>
-        <Package>gimp-i18n-nl</Package>
-        <Package>gimp-i18n-pl</Package>
-        <Package>gimp-i18n-pt_BR</Package>
-        <Package>gimp-i18n-ru</Package>
-        <Package>gimp-i18n-sv</Package>
-        <Package>gimp-i18n-tr</Package>
-        <Package>gimp-i18n-uk</Package>
-        <Package>gimp-layer-effects</Package>
-        <Package>gimp-lqr-plugin</Package>
-        <Package>gimp-refocus-it-plugin</Package>
-        <Package>gimp-resynthesizer</Package>
-        <Package>gimp-save-for-web</Package>
-        <Package>gimpfx-foundry</Package>
-         <Package>libreoffice-base</Package>
-        <Package>libreoffice-ca</Package>
-        <Package>libreoffice-calc</Package>
-        <Package>libreoffice-common</Package>
-        <Package>libreoffice-de</Package>
-        <Package>libreoffice-draw</Package>
-        <Package>libreoffice-es</Package>
-        <Package>libreoffice-fr</Package>
-        <Package>libreoffice-hr</Package>
-        <Package>libreoffice-hu</Package>
-        <Package>libreoffice-impress</Package>
-        <Package>libreoffice-it</Package>
-        <Package>libreoffice-math</Package>
-        <Package>libreoffice-nl</Package>
-        <Package>libreoffice-pl</Package>
-        <Package>libreoffice-pt-BR</Package>
-        <Package>libreoffice-ru</Package>
-        <Package>libreoffice-tr</Package>
-        <Package>libreoffice-writer</Package>
-        <Package>librevenge</Package>
+        <Package>zvbi</Package>
     </PackageSelection>
     <RootImagePackages>
+        <SelectedComponent>desktop.kde.framework</SelectedComponent>
+        <SelectedComponent>desktop.kde.plasma</SelectedComponent>
+        <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
+        <SelectedComponent>hardware.firmware</SelectedComponent>
+        <SelectedComponent>system.base</SelectedComponent>
+        <SelectedComponent>x11.server</SelectedComponent>
+        <SelectedPackage>Calamares</SelectedPackage>
+        <SelectedPackage>alsa-tools</SelectedPackage>
+        <SelectedPackage>alsa-utils</SelectedPackage>
+        <SelectedPackage>ark</SelectedPackage>
+        <SelectedPackage>bash-completion</SelectedPackage>
+        <SelectedPackage>bashdb</SelectedPackage>
+        <SelectedPackage>boost</SelectedPackage>
+        <SelectedPackage>boost-python3</SelectedPackage>
+        <SelectedPackage>busybox-mkinitcpio</SelectedPackage>
+        <SelectedPackage>calamares-theme-pisilinux</SelectedPackage>
+        <SelectedPackage>cpupowertools</SelectedPackage>
+        <SelectedPackage>cups-filters</SelectedPackage>
+        <SelectedPackage>desktop-file-utils</SelectedPackage>
+        <SelectedPackage>dolphin</SelectedPackage>
+        <SelectedPackage>droid-fonts</SelectedPackage>
         <SelectedPackage>firefox</SelectedPackage>
         <SelectedPackage>firefox-lang-ca</SelectedPackage>
         <SelectedPackage>firefox-lang-da</SelectedPackage>
@@ -1144,28 +1151,13 @@
         <SelectedPackage>firefox-lang-sv-SE</SelectedPackage>
         <SelectedPackage>firefox-lang-tr</SelectedPackage>
         <SelectedPackage>firefox-lang-uk</SelectedPackage>
-        <SelectedPackage>libreoffice-base</SelectedPackage>
-        <SelectedPackage>libreoffice-ca</SelectedPackage>
-        <SelectedPackage>libreoffice-calc</SelectedPackage>
-        <SelectedPackage>libreoffice-common</SelectedPackage>
-        <SelectedPackage>libreoffice-de</SelectedPackage>
-        <SelectedPackage>libreoffice-draw</SelectedPackage>
-        <SelectedPackage>libreoffice-es</SelectedPackage>
-        <SelectedPackage>libreoffice-fr</SelectedPackage>
-        <SelectedPackage>libreoffice-hr</SelectedPackage>
-        <SelectedPackage>libreoffice-hu</SelectedPackage>
-        <SelectedPackage>libreoffice-impress</SelectedPackage>
-        <SelectedPackage>libreoffice-it</SelectedPackage>
-        <SelectedPackage>libreoffice-math</SelectedPackage>
-        <SelectedPackage>libreoffice-nl</SelectedPackage>
-        <SelectedPackage>libreoffice-pl</SelectedPackage>
-        <SelectedPackage>libreoffice-pt-BR</SelectedPackage>
-        <SelectedPackage>libreoffice-ru</SelectedPackage>
-        <SelectedPackage>libreoffice-tr</SelectedPackage>
-        <SelectedPackage>libreoffice-writer</SelectedPackage>
+        <SelectedPackage>foomatic-db</SelectedPackage>
         <SelectedPackage>foomatic-db</SelectedPackage>
         <SelectedPackage>foomatic-db-engine</SelectedPackage>
+        <SelectedPackage>foomatic-db-engine</SelectedPackage>
         <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
+        <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
+        <SelectedPackage>ghostscript</SelectedPackage>
         <SelectedPackage>ghostscript</SelectedPackage>
         <SelectedPackage>gimp</SelectedPackage>
         <SelectedPackage>gimp-data-extras</SelectedPackage>
@@ -1192,32 +1184,6 @@
         <SelectedPackage>gimp-resynthesizer</SelectedPackage>
         <SelectedPackage>gimp-save-for-web</SelectedPackage>
         <SelectedPackage>gimpfx-foundry</SelectedPackage>
-        <SelectedComponent>desktop.kde.framework</SelectedComponent>
-        <SelectedComponent>desktop.kde.plasma</SelectedComponent>
-        <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
-        <SelectedComponent>hardware.firmware</SelectedComponent>
-        <SelectedComponent>system.base</SelectedComponent>
-        <SelectedComponent>x11.server</SelectedComponent>
-        <SelectedPackage>Calamares</SelectedPackage>
-        <SelectedPackage>alsa-tools</SelectedPackage>
-        <SelectedPackage>alsa-utils</SelectedPackage>
-        <SelectedPackage>ark</SelectedPackage>
-        <SelectedPackage>kaptan</SelectedPackage>
-        <SelectedPackage>bash-completion</SelectedPackage>
-        <SelectedPackage>bashdb</SelectedPackage>
-        <SelectedPackage>boost</SelectedPackage>
-        <SelectedPackage>boost-python3</SelectedPackage>
-        <SelectedPackage>busybox-mkinitcpio</SelectedPackage>
-        <SelectedPackage>calamares-theme-pisilinux</SelectedPackage>
-        <SelectedPackage>cpupowertools</SelectedPackage>
-        <SelectedPackage>cups-filters</SelectedPackage>
-        <SelectedPackage>desktop-file-utils</SelectedPackage>
-        <SelectedPackage>dolphin</SelectedPackage>
-        <SelectedPackage>droid-fonts</SelectedPackage>
-        <SelectedPackage>foomatic-db</SelectedPackage>
-        <SelectedPackage>foomatic-db-engine</SelectedPackage>
-        <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
-        <SelectedPackage>ghostscript</SelectedPackage>
         <SelectedPackage>glibc-locales-ca</SelectedPackage>
         <SelectedPackage>glibc-locales-de</SelectedPackage>
         <SelectedPackage>glibc-locales-en</SelectedPackage>
@@ -1242,6 +1208,7 @@
         <SelectedPackage>gwenview</SelectedPackage>
         <SelectedPackage>history-manager</SelectedPackage>
         <SelectedPackage>icon-theme-adwaita</SelectedPackage>
+        <SelectedPackage>kaptan</SelectedPackage>
         <SelectedPackage>kate</SelectedPackage>
         <SelectedPackage>kernel</SelectedPackage>
         <SelectedPackage>kio-extras</SelectedPackage>
@@ -1255,6 +1222,25 @@
         <SelectedPackage>libmatroska</SelectedPackage>
         <SelectedPackage>libmpeg2</SelectedPackage>
         <SelectedPackage>libquicktime</SelectedPackage>
+        <SelectedPackage>libreoffice-base</SelectedPackage>
+        <SelectedPackage>libreoffice-ca</SelectedPackage>
+        <SelectedPackage>libreoffice-calc</SelectedPackage>
+        <SelectedPackage>libreoffice-common</SelectedPackage>
+        <SelectedPackage>libreoffice-de</SelectedPackage>
+        <SelectedPackage>libreoffice-draw</SelectedPackage>
+        <SelectedPackage>libreoffice-es</SelectedPackage>
+        <SelectedPackage>libreoffice-fr</SelectedPackage>
+        <SelectedPackage>libreoffice-hr</SelectedPackage>
+        <SelectedPackage>libreoffice-hu</SelectedPackage>
+        <SelectedPackage>libreoffice-impress</SelectedPackage>
+        <SelectedPackage>libreoffice-it</SelectedPackage>
+        <SelectedPackage>libreoffice-math</SelectedPackage>
+        <SelectedPackage>libreoffice-nl</SelectedPackage>
+        <SelectedPackage>libreoffice-pl</SelectedPackage>
+        <SelectedPackage>libreoffice-pt-BR</SelectedPackage>
+        <SelectedPackage>libreoffice-ru</SelectedPackage>
+        <SelectedPackage>libreoffice-tr</SelectedPackage>
+        <SelectedPackage>libreoffice-writer</SelectedPackage>
         <SelectedPackage>libva-intel-driver</SelectedPackage>
         <SelectedPackage>logrotate</SelectedPackage>
         <SelectedPackage>memtest86</SelectedPackage>
@@ -1372,6 +1358,7 @@
         <Package>avahi-libs</Package>
         <Package>b43-firmware</Package>
         <Package>b43-fwcutter</Package>
+        <Package>babl</Package>
         <Package>baloo</Package>
         <Package>baloo-widgets</Package>
         <Package>baselayout</Package>
@@ -1437,7 +1424,6 @@
         <Package>dolphin</Package>
         <Package>dosfstools</Package>
         <Package>dotconf</Package>
-        <Package>doxygen</Package>
         <Package>drkonqi</Package>
         <Package>droid-fonts</Package>
         <Package>e2fsprogs</Package>
@@ -1446,7 +1432,7 @@
         <Package>efivar</Package>
         <Package>elfutils</Package>
         <Package>enca</Package>
-        <Package>encfs</Package>
+        <Package>enchant</Package>
         <Package>enscript</Package>
         <Package>espeak</Package>
         <Package>eudev</Package>
@@ -1459,8 +1445,28 @@
         <Package>fftw3</Package>
         <Package>file</Package>
         <Package>findutils</Package>
-        <Package>firebird-client</Package>
+        <Package>firefox</Package>
+        <Package>firefox-lang-ca</Package>
+        <Package>firefox-lang-da</Package>
+        <Package>firefox-lang-de</Package>
+        <Package>firefox-lang-en-US</Package>
+        <Package>firefox-lang-es-AR</Package>
+        <Package>firefox-lang-es-CL</Package>
+        <Package>firefox-lang-es-ES</Package>
+        <Package>firefox-lang-fr</Package>
+        <Package>firefox-lang-hr</Package>
+        <Package>firefox-lang-hu</Package>
+        <Package>firefox-lang-it</Package>
+        <Package>firefox-lang-nl</Package>
+        <Package>firefox-lang-pl</Package>
+        <Package>firefox-lang-pt-BR</Package>
+        <Package>firefox-lang-ro</Package>
+        <Package>firefox-lang-ru</Package>
+        <Package>firefox-lang-sv-SE</Package>
+        <Package>firefox-lang-tr</Package>
+        <Package>firefox-lang-uk</Package>
         <Package>flac</Package>
+        <Package>flex</Package>
         <Package>flite</Package>
         <Package>fontconfig</Package>
         <Package>foomatic-db</Package>
@@ -1476,12 +1482,38 @@
         <Package>gdb</Package>
         <Package>gdbm</Package>
         <Package>gdk-pixbuf</Package>
+        <Package>gegl</Package>
         <Package>geoclue</Package>
         <Package>geoip</Package>
         <Package>gettext</Package>
         <Package>gfxtheme-pisilinux-install</Package>
         <Package>ghostscript</Package>
         <Package>giflib</Package>
+        <Package>gimp</Package>
+        <Package>gimp-data-extras</Package>
+        <Package>gimp-dds-plugin</Package>
+        <Package>gimp-focusblur-plugin</Package>
+        <Package>gimp-gmic-plugin</Package>
+        <Package>gimp-i18n-de</Package>
+        <Package>gimp-i18n-en_GB</Package>
+        <Package>gimp-i18n-es</Package>
+        <Package>gimp-i18n-fr</Package>
+        <Package>gimp-i18n-hr</Package>
+        <Package>gimp-i18n-hu</Package>
+        <Package>gimp-i18n-it</Package>
+        <Package>gimp-i18n-nl</Package>
+        <Package>gimp-i18n-pl</Package>
+        <Package>gimp-i18n-pt_BR</Package>
+        <Package>gimp-i18n-ru</Package>
+        <Package>gimp-i18n-sv</Package>
+        <Package>gimp-i18n-tr</Package>
+        <Package>gimp-i18n-uk</Package>
+        <Package>gimp-layer-effects</Package>
+        <Package>gimp-lqr-plugin</Package>
+        <Package>gimp-refocus-it-plugin</Package>
+        <Package>gimp-resynthesizer</Package>
+        <Package>gimp-save-for-web</Package>
+        <Package>gimpfx-foundry</Package>
         <Package>glib-networking</Package>
         <Package>glib2</Package>
         <Package>glibc</Package>
@@ -1538,6 +1570,7 @@
         <Package>ibus</Package>
         <Package>icon-theme-adwaita</Package>
         <Package>icon-theme-hicolor</Package>
+        <Package>iconcan</Package>
         <Package>icu4c</Package>
         <Package>ilmbase</Package>
         <Package>imagemagick</Package>
@@ -1548,13 +1581,13 @@
         <Package>jack-audio-connection-kit</Package>
         <Package>jasper</Package>
         <Package>jbigkit</Package>
+        <Package>jre7-openjdk-headless</Package>
         <Package>json-c</Package>
-        <Package>json-glib</Package>
-        <Package>kaccounts-integration</Package>
         <Package>kactivities</Package>
         <Package>kactivities-stats</Package>
         <Package>kactivitymanagerd</Package>
         <Package>kapidox</Package>
+        <Package>kaptan</Package>
         <Package>karchive</Package>
         <Package>kate</Package>
         <Package>kauth</Package>
@@ -1599,7 +1632,6 @@
         <Package>kinit</Package>
         <Package>kio</Package>
         <Package>kio-extras</Package>
-        <Package>kirigami</Package>
         <Package>kitemmodels</Package>
         <Package>kitemviews</Package>
         <Package>kjobwidgets</Package>
@@ -1657,7 +1689,6 @@
         <Package>libXext</Package>
         <Package>libXfixes</Package>
         <Package>libXfont</Package>
-        <Package>libXfont2</Package>
         <Package>libXft</Package>
         <Package>libXi</Package>
         <Package>libXinerama</Package>
@@ -1674,8 +1705,6 @@
         <Package>libXxf86misc</Package>
         <Package>libXxf86miscproto</Package>
         <Package>libXxf86vm</Package>
-        <Package>libaccounts-glib</Package>
-        <Package>libaccounts-qt5</Package>
         <Package>libaio</Package>
         <Package>libao</Package>
         <Package>libarchive</Package>
@@ -1695,6 +1724,7 @@
         <Package>libcdio</Package>
         <Package>libcdio-paranoia</Package>
         <Package>libconfig</Package>
+        <Package>libcroco</Package>
         <Package>libcrystalhd</Package>
         <Package>libdaemon</Package>
         <Package>libdbusmenu-qt</Package>
@@ -1721,7 +1751,6 @@
         <Package>libevdev</Package>
         <Package>libevent</Package>
         <Package>libexif</Package>
-        <Package>libfastjson</Package>
         <Package>libffado</Package>
         <Package>libffi</Package>
         <Package>libfontenc</Package>
@@ -1740,6 +1769,7 @@
         <Package>libimobiledevice</Package>
         <Package>libinput</Package>
         <Package>libjpeg-turbo</Package>
+        <Package>libkate</Package>
         <Package>libkdcraw</Package>
         <Package>libkexiv2</Package>
         <Package>libkipi</Package>
@@ -1767,6 +1797,7 @@
         <Package>libnotify</Package>
         <Package>libnut</Package>
         <Package>libogg</Package>
+        <Package>liboil</Package>
         <Package>libomxil-bellagio</Package>
         <Package>libopus</Package>
         <Package>libpaper</Package>
@@ -1776,7 +1807,6 @@
         <Package>libpipeline</Package>
         <Package>libplist</Package>
         <Package>libpng</Package>
-        <Package>libproxy</Package>
         <Package>libpwquality</Package>
         <Package>libqalculate</Package>
         <Package>libqmi</Package>
@@ -1784,16 +1814,35 @@
         <Package>libquicktime</Package>
         <Package>libraw</Package>
         <Package>libraw1394</Package>
+        <Package>libreoffice-base</Package>
+        <Package>libreoffice-ca</Package>
+        <Package>libreoffice-calc</Package>
+        <Package>libreoffice-common</Package>
+        <Package>libreoffice-de</Package>
+        <Package>libreoffice-draw</Package>
+        <Package>libreoffice-es</Package>
+        <Package>libreoffice-fr</Package>
+        <Package>libreoffice-hr</Package>
+        <Package>libreoffice-hu</Package>
+        <Package>libreoffice-impress</Package>
+        <Package>libreoffice-it</Package>
+        <Package>libreoffice-math</Package>
+        <Package>libreoffice-nl</Package>
+        <Package>libreoffice-pl</Package>
+        <Package>libreoffice-pt-BR</Package>
+        <Package>libreoffice-ru</Package>
+        <Package>libreoffice-tr</Package>
+        <Package>libreoffice-writer</Package>
+        <Package>librsvg</Package>
         <Package>libsamplerate</Package>
         <Package>libsdl</Package>
-        <Package>libseccomp</Package>
         <Package>libsecret</Package>
-        <Package>libshout</Package>
         <Package>libsigc++</Package>
         <Package>libsndfile</Package>
         <Package>libsoup</Package>
         <Package>libsoup-gnome</Package>
         <Package>libspectre</Package>
+        <Package>libspiro</Package>
         <Package>libssh</Package>
         <Package>libssh2</Package>
         <Package>libtalloc</Package>
@@ -1807,7 +1856,6 @@
         <Package>libunwind</Package>
         <Package>libusb</Package>
         <Package>libusb-compat</Package>
-        <Package>libusbmuxd</Package>
         <Package>libuser</Package>
         <Package>libutil-linux</Package>
         <Package>libv4l</Package>
@@ -1831,6 +1879,7 @@
         <Package>libxslt</Package>
         <Package>libyaml</Package>
         <Package>libzip</Package>
+        <Package>linux-atm</Package>
         <Package>linux-firmware</Package>
         <Package>lirc</Package>
         <Package>llvm</Package>
@@ -1855,7 +1904,6 @@
         <Package>mesa-glu</Package>
         <Package>milou</Package>
         <Package>mingetty</Package>
-        <Package>minizip</Package>
         <Package>miscfiles</Package>
         <Package>mit-kerberos</Package>
         <Package>mjpegtools</Package>
@@ -1869,11 +1917,9 @@
         <Package>module-virtualbox-guest-userspace</Package>
         <Package>module-virtualbox-userspace</Package>
         <Package>mpfr</Package>
-        <Package>mpg123</Package>
         <Package>mpv-player</Package>
         <Package>mtools</Package>
         <Package>mudur</Package>
-        <Package>mupdf</Package>
         <Package>nano</Package>
         <Package>ncompress</Package>
         <Package>ncurses</Package>
@@ -1910,7 +1956,6 @@
         <Package>partitionmanager</Package>
         <Package>pciutils</Package>
         <Package>pcmciautils</Package>
-        <Package>pepperflash</Package>
         <Package>perl</Package>
         <Package>perl-Crypt-PasswdMD5</Package>
         <Package>perl-Digest-SHA1</Package>
@@ -1931,7 +1976,6 @@
         <Package>plasma-nm</Package>
         <Package>plasma-pa</Package>
         <Package>plasma-sdk</Package>
-        <Package>plasma-vault</Package>
         <Package>plasma-workspace</Package>
         <Package>plasma-workspace-wallpapers</Package>
         <Package>plymouth</Package>
@@ -1960,11 +2004,9 @@
         <Package>print-manager</Package>
         <Package>prison</Package>
         <Package>procps</Package>
-        <Package>protobuf</Package>
         <Package>psmisc</Package>
         <Package>pulseaudio</Package>
         <Package>pulseaudio-libs</Package>
-        <Package>purpose</Package>
         <Package>pycurl</Package>
         <Package>pypolkit</Package>
         <Package>python</Package>
@@ -1983,12 +2025,10 @@
         <Package>qbittorrent</Package>
         <Package>qca2-qt5</Package>
         <Package>qpdf</Package>
-        <Package>qqc2-desktop-style</Package>
         <Package>qrencode</Package>
         <Package>qt5-accountsservice</Package>
         <Package>qt5-assistant</Package>
         <Package>qt5-base</Package>
-        <Package>qt5-charts</Package>
         <Package>qt5-configuration</Package>
         <Package>qt5-connectivity</Package>
         <Package>qt5-declarative</Package>
@@ -2004,12 +2044,11 @@
         <Package>qt5-phonon</Package>
         <Package>qt5-phonon-backend-gstreamer</Package>
         <Package>qt5-qdbusviewer</Package>
+        <Package>qt5-quick1</Package>
         <Package>qt5-quickcontrols</Package>
         <Package>qt5-quickcontrols2</Package>
         <Package>qt5-script</Package>
-        <Package>qt5-scxml</Package>
         <Package>qt5-sensors</Package>
-        <Package>qt5-serialbus</Package>
         <Package>qt5-serialport</Package>
         <Package>qt5-speech</Package>
         <Package>qt5-sql-mysql</Package>
@@ -2018,7 +2057,6 @@
         <Package>qt5-sql-sqlite</Package>
         <Package>qt5-svg</Package>
         <Package>qt5-translations</Package>
-        <Package>qt5-virtualkeyboard</Package>
         <Package>qt5-wayland</Package>
         <Package>qt5-webchannel</Package>
         <Package>qt5-webengine</Package>
@@ -2046,10 +2084,10 @@
         <Package>sgml-common</Package>
         <Package>shadow</Package>
         <Package>shared-mime-info</Package>
-        <Package>signon</Package>
         <Package>slang</Package>
         <Package>smpeg</Package>
         <Package>smplayer</Package>
+        <Package>smtube</Package>
         <Package>snappy</Package>
         <Package>solid</Package>
         <Package>sonnet</Package>
@@ -2057,7 +2095,6 @@
         <Package>spectacle</Package>
         <Package>speech-dispatcher</Package>
         <Package>speex</Package>
-        <Package>speexdsp</Package>
         <Package>spidermonkey</Package>
         <Package>sqlite</Package>
         <Package>squashfs-tools</Package>
@@ -2081,14 +2118,13 @@
         <Package>tiff</Package>
         <Package>time</Package>
         <Package>timezone</Package>
-        <Package>tinyxml2</Package>
-        <Package>twolame</Package>
         <Package>udisks2</Package>
         <Package>unixODBC</Package>
         <Package>unrar</Package>
         <Package>unzip</Package>
         <Package>upower</Package>
         <Package>urlgrabber</Package>
+        <Package>usbmuxd</Package>
         <Package>usbutils</Package>
         <Package>user-manager</Package>
         <Package>utempter</Package>
@@ -2101,11 +2137,11 @@
         <Package>virtualbox-guest-utils</Package>
         <Package>vixie-cron</Package>
         <Package>vokoscreen</Package>
-        <Package>wavpack</Package>
         <Package>wayland</Package>
         <Package>wayland-client</Package>
         <Package>wayland-cursor</Package>
         <Package>wayland-server</Package>
+        <Package>webkit-gtk2</Package>
         <Package>webp</Package>
         <Package>wget</Package>
         <Package>which</Package>
@@ -2119,7 +2155,6 @@
         <Package>xcb-util-keysyms</Package>
         <Package>xcb-util-renderutil</Package>
         <Package>xcb-util-wm</Package>
-        <Package>xdg-desktop-portal-kde</Package>
         <Package>xdg-user-dirs</Package>
         <Package>xdg-utils</Package>
         <Package>xinit</Package>
@@ -2178,73 +2213,8 @@
         <Package>xvid</Package>
         <Package>xz</Package>
         <Package>zip</Package>
-        <Package>kaptan</Package>
-         <Package>firefox</Package>
-        <Package>firefox-lang-ca</Package>
-        <Package>firefox-lang-da</Package>
-        <Package>firefox-lang-de</Package>
-        <Package>firefox-lang-en-US</Package>
-        <Package>firefox-lang-es-AR</Package>
-        <Package>firefox-lang-es-CL</Package>
-        <Package>firefox-lang-es-ES</Package>
-        <Package>firefox-lang-fr</Package>
-        <Package>firefox-lang-hr</Package>
-        <Package>firefox-lang-hu</Package>
-        <Package>firefox-lang-it</Package>
-        <Package>firefox-lang-nl</Package>
-        <Package>firefox-lang-pl</Package>
-        <Package>firefox-lang-pt-BR</Package>
-        <Package>firefox-lang-ro</Package>
-        <Package>firefox-lang-ru</Package>
-        <Package>firefox-lang-sv-SE</Package>
-        <Package>firefox-lang-tr</Package>
-        <Package>firefox-lang-uk</Package>
-        <Package>gimp</Package>
-        <Package>gimp-data-extras</Package>
-        <Package>gimp-dds-plugin</Package>
-        <Package>gimp-focusblur-plugin</Package>
-        <Package>gimp-gmic-plugin</Package>
-        <Package>gimp-i18n-de</Package>
-        <Package>gimp-i18n-en_GB</Package>
-        <Package>gimp-i18n-es</Package>
-        <Package>gimp-i18n-fr</Package>
-        <Package>gimp-i18n-hr</Package>
-        <Package>gimp-i18n-hu</Package>
-        <Package>gimp-i18n-it</Package>
-        <Package>gimp-i18n-nl</Package>
-        <Package>gimp-i18n-pl</Package>
-        <Package>gimp-i18n-pt_BR</Package>
-        <Package>gimp-i18n-ru</Package>
-        <Package>gimp-i18n-sv</Package>
-        <Package>gimp-i18n-tr</Package>
-        <Package>gimp-i18n-uk</Package>
-        <Package>gimp-layer-effects</Package>
-        <Package>gimp-lqr-plugin</Package>
-        <Package>gimp-refocus-it-plugin</Package>
-        <Package>gimp-resynthesizer</Package>
-        <Package>gimp-save-for-web</Package>
-        <Package>gimpfx-foundry</Package>
-         <Package>libreoffice-base</Package>
-        <Package>libreoffice-ca</Package>
-        <Package>libreoffice-calc</Package>
-        <Package>libreoffice-common</Package>
-        <Package>libreoffice-de</Package>
-        <Package>libreoffice-draw</Package>
-        <Package>libreoffice-es</Package>
-        <Package>libreoffice-fr</Package>
-        <Package>libreoffice-hr</Package>
-        <Package>libreoffice-hu</Package>
-        <Package>libreoffice-impress</Package>
-        <Package>libreoffice-it</Package>
-        <Package>libreoffice-math</Package>
-        <Package>libreoffice-nl</Package>
-        <Package>libreoffice-pl</Package>
-        <Package>libreoffice-pt-BR</Package>
-        <Package>libreoffice-ru</Package>
-        <Package>libreoffice-tr</Package>
-        <Package>libreoffice-writer</Package>
-        <Package>librevenge</Package>
-        <Package>efitools</Package>
+        <Package>zlib</Package>
+        <Package>zvbi</Package>
     </RootImagePackages>
     <LanguageSelection default_language="tr_TR">
         <Language>tr_TR</Language>
