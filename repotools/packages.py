@@ -64,7 +64,7 @@ def fetch_uri(base_uri, cache_dir, filename, console=None, update_repo=False):
             addr = os.path.join(base_uri, filename)
             connection = requests.get(addr, stream=True, verify=False)
             head = requests.head(addr)
-            size = int(head.headers["content-length"])
+            size = int(head.headers["Content-Length"])
         except ValueError:
             raise ExIndexBogus
         filedir = path[:path.rfind("/")]
