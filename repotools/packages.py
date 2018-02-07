@@ -63,8 +63,8 @@ def fetch_uri(base_uri, cache_dir, filename, console=None, update_repo=False):
             # verify=False ile, baglandigin yerdeki sertifika gecerli bir sertifika olmasa bile isleme devam etmesini saglar.
             addr = os.path.join(base_uri, filename)
             connection = requests.get(addr, stream=True, verify=False)
-            headers = requests.head(addr)
-            size = headers["content-length"]
+            head = requests.head(addr)
+            size = int(head.headers["content-length"])
         except ValueError:
             raise ExIndexBogus
         filedir = path[:path.rfind("/")]
